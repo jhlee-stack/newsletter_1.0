@@ -170,7 +170,7 @@ def send_email(category_results, fallback_articles):
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
-    msg["From"]    = GMAIL_ADDRESS
+    msg["From"] = f"C2C 뉴스봇 <{GMAIL_ADDRESS}>"
     msg["To"]      = GMAIL_ADDRESS
     msg["Bcc"]     = ", ".join(RECV_ADDRESS)
     msg.attach(MIMEText(build_html(category_results, fallback_articles), "html", "utf-8"))
