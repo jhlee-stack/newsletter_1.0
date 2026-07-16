@@ -16,7 +16,9 @@ RECV_ADDRESS       = os.environ["RECV_ADDRESS"].split(",")
 KEYWORDS = [
     "당근마켓", "당근", "번개장터", "중고나라",
     "C2C", "중고거래", "개인간거래", "리셀",
-    "중고플랫폼", "버티컬커머스"
+    "중고플랫폼", "버티컬커머스",
+    "전금법", "전자금융거래법", "전자금융업", "선불충전금",
+    "간편결제", "전자지급", "금융위원회"
 ]
 
 # ─── 구글 뉴스 RSS ────────────────────────────────────
@@ -26,6 +28,8 @@ GOOGLE_NEWS_RSS = {
     "중고나라":  "https://news.google.com/rss/search?q=중고나라&hl=ko&gl=KR&ceid=KR:ko",
     "C2C동향":  "https://news.google.com/rss/search?q=C2C+커머스&hl=ko&gl=KR&ceid=KR:ko",
     "중고거래":  "https://news.google.com/rss/search?q=중고거래+플랫폼&hl=ko&gl=KR&ceid=KR:ko",
+    "전금법":   "https://news.google.com/rss/search?q=전자금융거래법+개정&hl=ko&gl=KR&ceid=KR:ko",
+    "선불충전금": "https://news.google.com/rss/search?q=선불충전금+규제&hl=ko&gl=KR&ceid=KR:ko",
 }
 
 FALLBACK_RSS     = "https://news.google.com/rss/search?q=중고거래+플랫폼&hl=ko&gl=KR&ceid=KR:ko"
